@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz
+8 silly fetchOtherPackageData C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz
+9 silly cache add args [ 'C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz',
+9 silly cache add   null ]
+10 verbose cache add spec C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz',
+11 silly cache add   spec: 'C:\\Users\\abose\\Documents\\Ashis-Dev\\NodeJS\\simpletimer\\simpletimer-0.0.1.tgz',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 2e71f735ead866be726f5a9e969da7db0cdba7a6
+13 verbose addTmpTarball C:\Users\abose\Documents\Ashis-Dev\NodeJS\simpletimer\simpletimer-0.0.1.tgz not in flight; adding
+14 verbose correctMkdir C:\Users\abose\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from C:\Users\abose\Documents\Ashis-Dev\NodeJS\simpletimer\simpletimer-0.0.1.tgz
+16 verbose tar unpack C:\Users\abose\Documents\Ashis-Dev\NodeJS\simpletimer\simpletimer-0.0.1.tgz
+17 verbose tar unpacking to C:\Users\abose\AppData\Local\Temp\npm-19356-d8162e21\unpack-d6ed975a
+18 silly gentlyRm C:\Users\abose\AppData\Local\Temp\npm-19356-d8162e21\unpack-d6ed975a is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\abose\AppData\Local\Temp\npm-19356-d8162e21\unpack-d6ed975a
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 silly gunzTarPerm extractEntry package.json
+22 silly gunzTarPerm extractEntry simple_timer.js
+23 verbose correctMkdir C:\Users\abose\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly cache afterAdd simpletimer@0.0.1
+25 verbose afterAdd C:\Users\abose\AppData\Roaming\npm-cache\simpletimer\0.0.1\package\package.json not in flight; writing
+26 verbose correctMkdir C:\Users\abose\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 verbose afterAdd C:\Users\abose\AppData\Roaming\npm-cache\simpletimer\0.0.1\package\package.json written
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Refusing to install simpletimer as a dependency of itself
+44 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+44 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+44 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+44 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+45 verbose cwd C:\Users\abose\Documents\Ashis-Dev\NodeJS\simpletimer
+46 error Windows_NT 10.0.14393
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "C:/Users/abose/Documents/Ashis-Dev/NodeJS/simpletimer/simpletimer-0.0.1.tgz"
+48 error node v6.10.3
+49 error npm  v3.10.10
+50 error code ENOSELF
+51 error Refusing to install simpletimer as a dependency of itself
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
